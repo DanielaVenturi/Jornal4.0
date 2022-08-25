@@ -1,0 +1,46 @@
+body {
+    background-color: #7493A3;
+
+}
+.Titulo1 {
+
+    text-align: center;
+    background-color: #244657;
+    width: 100%;
+    color: antiquewhite;
+
+}
+
+.Titulo2 {
+
+    text-align: center;
+
+}
+
+.Imagem {
+
+    text-align: center;
+
+}
+
+.Texto {
+
+    font-size: larger;
+    text-align: center;
+
+
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        color: rgb(137, 22, 163);
+    }
+
+    h2 {
+        color: rgb(22, 88, 163);
+    }
+
+    a {
+        color: rgb(22, 88, 163);
+    }
+}
+
