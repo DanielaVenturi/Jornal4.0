@@ -1,0 +1,51 @@
+.Home{
+
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: black;
+
+    color: rgba(255, 255, 255, 0.042);
+
+    width: 100%;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+
+}
+#noticias{
+
+color: aliceblue;
+
+
+}
+#Homee{
+
+color: aliceblue;
+
+}
+
+#podcast{
+
+    color: aliceblue;
+}
+#receitas{
+    color: aliceblue;
+}
+#reportagem{
+    color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+      color: rgb(163, 22, 22);
+    }
+
+    h2 {
+      color: rgb(163, 22, 22);
+    }
+
+    a {
+      color: rgb(163, 22, 22);
+    }
+  }
