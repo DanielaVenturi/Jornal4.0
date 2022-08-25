@@ -34,6 +34,34 @@
         color: rgb(163, 22, 22);
       }
     }
+    .Home{
+    font-size: xx-large;
+  }
+    #Homee {
+position: fixed;
+left: 0;
+top: 0;
+background-color: #244657;
+
+color: aliceblue;
+
+width: 150px;
+z-index: 1;
+font-size: 50px;
+
+}
+.Home>.submenu {
+display: none;
+z-index: 2;
+}
+.Home:hover>.submenu {
+display: block;
+position: fixed;
+top: 108px;
+}
+.Home:hover>.submenu>a {
+display: block;
+}
     </style>
   </head>
 
@@ -86,4 +114,13 @@
       </p>
     </div>
   </body>
+
+
+  <div class="Home">
+    <p id="Homee">Menu</p>
+    <div class="submenu">
+        <a href="jogos.html">Jogos</a>
+        <a href="Podcast.html">PodCast</a>
+        <a href="ReceitaBolo.html">Receita</a>
+    </div>
 </html>
